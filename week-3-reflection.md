@@ -8,7 +8,7 @@ Its tricky. I'm at the point where I change an attribute, load the file, check h
 
 What aspects of your design did you find easiest to implement? What was most difficult?
 
-I basically ended up redoing my site. The easiest aspects were putting things in place, namely, the nav bar and the table which will contain the content within the body. Aligning elements and re-positioning them was tricky.
+I basically ended up redoing my site. The easiest aspects were putting things in place, namely, the nav bar and the table which will contain the content within the body. Aligning elements and re-positioning them was tricky. Also, I could not figure out why what I should add to my blog.css file.
 
 What did you learn about adding and formatting elements with CSS in this challenge?
 
