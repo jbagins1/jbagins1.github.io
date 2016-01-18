@@ -1,6 +1,6 @@
 What did you learn about CSS padding, borders, and margin by doing this challenge?
 
-Thse are some of the features used to align content to where one wants it to be.
+These are some of the features used to align content to where one wants it to be.
 
 What did you learn about CSS positioning?
 
