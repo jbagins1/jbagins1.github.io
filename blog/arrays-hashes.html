@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="https://jbagins1.github.io/stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="https://jbagins1.github.io/stylesheets/blog.css"/>
+  <title>Blog About It - Index</title>
+</head>
+
+<body bgcolor="#333">
+
+<h1 align="center" style="color:white">Dev Bootcamp Learning Blog</h1>
+
+<ul id="nav">
+  <li>
+    <a href="https://jbagins1.github.io/index.html">Home</a>
+  </li>
+  <li>
+    <a href="">Projects</a>
+  </li>
+  <li>
+    <a href="">Resume</a>
+  </li>
+  <li>
+    <a href="">Skills</a>
+  </li>
+  <ul style="float:right;list-style-type:none;">
+    <li>
+        <a href="">About Me</a>
+    </li>
+    <li>
+        <a href="">LinkedIn</a>
+    </li>
+  </ul>
+</ul>
+
+<table width="100%" bgcolor="#333">
+  <col width="250">
+  <tr>
+    <td height="200" align="center" valign="top">
+      <h3>Blog Archive:</h3>
+      <br>
+      <a href=a href="https://jbagins1.github.io/blog/css-concepts.html" style="color:white">January 19, 2016</a>
+      <br>
+      <a href="https://jbagins1.github.io/blog/january-7-post.html" style="color:white">January 7, 2016</a>
+    </td>
+    <td valign="top">
+      <h2 align="left"> January 28, 2015</h2>
+      <p>
+        Lets talk about hashes and arrays. Generally speaking an array is a list that contains indexed objects in some sort of order. Its like a grocery list containing all the items you want to buy: milk, eggs, cereal, cheese, and tortillas. Meanwhile a hash is a collection of key-value pairs like this grocery list: milk - Oberweis, eggs - organic, cereal - Honey Nut Cheerios, cheese - shredded cheddar, and tortillas - flour. Lets look at these in more detail below.
+      <h3><u>Hashes</u></h3>
+      If we were to turn the above grocery list into a hash, it would probaby look something like this:
+      <p>
+      grocery_list = { milk: "organic", eggs: "organic", cereal: "Honey Nut Cheerios", cheese: "shredded cheddar", tortillas: "flour" }
+      </p>
+      The type of food (i.e. eggs) is the key and the additional information (i.e. organic) is the value in this hashes key-value pairings. As you can see key's can have the same value, eggs and milk are both organic, however, each key itself must be unique. So we can't put milk on our list twice. If we wanted to access the additional information concerning the milk key (i.e. its value: organic), we would type the following command:
+      <p>
+      grocery_list[:milk]
+      <br>
+      *notice when you call this key, the colon goes before the "m" in milk; when you assign the value "organic" to the key of milk, the colon goes after the "k"
+      </p>
+      Arrays are similar to hashes, except that array indexing is done via a sequential ordering of the objects and not by  key-value pairing.
+      <h3><u>Arrays</u></h3>
+      Lets take a look at what our grocery list would look like if it were in an array:
+      <p>
+      gorcery_list = [ "milk", "eggs", "cereal", "cheese", "tortillas" ]
+      </p>
+      Notice that instead of curly braces, we set up an array with brackets. Also, each item in the array is indexed according to its place on the list, however, the numbering starts with 0. Thus, milk's index number is 0, eggs' index number is 1, cereal's is 2 and so on. Lets imagine our list has 37 items on it. So its a very long list. If we wanted to see what the #19 item on our list is we would type:
+      <p>
+      grocery_list[19]
+      </p>
+      Notice the differences between accessing information in hashes and arrays. In a hash, we call a key, i.e. if we want to know the value associated with milk we call milk.  In an array, we call the index number and whatever value is in that position gets shown.
+      <h3><u>That's great but so what? Aren't hases and arrays basically the same thing?</u></h3>
+      Not really. Although they are very similar, some things are mor optimal to do in a hash over and array and vice versa. For example, arrays are great for containing a bunch of hashes that contain a list of, for example, users of a website. Meanwhile, each hash may contain more specific information about the user like their details like their first name, last name, date of birth, address, and so on. Its easier to access the information because you would just call the first name key, instead of trying to figure out where the first name is indexed on a long list of information.
+    </td>
+  </tr>
+</table>
+</body>
+
+<footer>
+<ul id="nav">
+  <li>
+    <a href="https://jbagins1.github.io/index.html">Home</a>
+  </li>
+  <li>
+    <a href="">Projects</a>
+  </li>
+  <li>
+    <a href="">Resume</a>
+  </li>
+  <li>
+    <a href="">Skills</a>
+  </li>
+  <ul style="float:right;list-style-type:none;">
+    <li>
+        <a href="">About Me</a>
+    </li>
+    <li>
+        <a href="">LinkedIn</a>
+    </li>
+  </ul>
+</ul>
+</footer>
+</html>
